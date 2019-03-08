@@ -6,5 +6,7 @@ Sample datasets are <a href="https://drive.google.com/drive/folders/1uG_ETcPIx2T
 The description of the lab is <a href="https://docs.google.com/document/d/1Nf588XZQmRDeexIxMJ-SjHVwDB9HXznMPe-iWdLz1go/edit?usp=sharing">here</a>.
 
 Run preprocess.py on the dataset first in order to split it into a training and testing set.
+(The second command line argument should be the dataset)
 
 Then run train_and_classify.py, which will output the results of classification into predictions.csv
+(The second and third command line arguments should be the training and testing set, respectively)
